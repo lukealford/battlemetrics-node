@@ -1,0 +1,30 @@
+{
+  "name": "battlemetrics-node",
+  "version": "0.1.0",
+  "description": "Node.js SDK for battlemetrics.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukealford/battlemetrics-node.git"
+  },
+  "keywords": [
+    "battlemetrics",
+    "SDK",
+    "API"
+  ],
+  "author": "Luke Alford <luke@lukealford.com> (https://lukealford.com)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/lukealford/battlemetrics-node/issues"
+  },
+  "homepage": "https://github.com/lukealford/battlemetrics-node#readme",
+  "dependencies": {
+    "axios": "^0.16.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
