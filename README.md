@@ -1,6 +1,11 @@
-# battlemetrics-node
+Battle Metrics Node
+=========
+
 Node.js SDK for battlemetrics.com
 
-# VERY MUCH A WORK IN PROGRESS
+## Installation
 
-Currently only supports **search** this returns the json response
+  `npm install battlemetrics-node`
+
+
+# VERY MUCH A WORK IN PROGRESS
