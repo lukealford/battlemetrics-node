@@ -20,12 +20,12 @@ const axios = require("axios");
       axios.defaults.headers.post['Content-Type'] = 'application/json';
 
       let url = '/bans?filter[search]='+searchID;
-      // Gets the ban counts from battlemetrics
-      let config = {
-          scope:'ban:read'
-        }
+      // Gets searches the battlemetrics endpoint [/bans]
+      const config = {
+        scope:'ban:read'
+      }
 
-      axios.get(url, getConfig)
+      axios.get(url, config)
         .then(function (response) {
           return console.log(response)
         })
